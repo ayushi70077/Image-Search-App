@@ -26,26 +26,22 @@ To get started with the Image Search App, follow these steps:
 
    ```bash
    git clone https://github.com/your-username/image-search-app.git
-Navigate to the project directory:
+2.Navigate to the project directory:
 
-bash
-Copy code
-cd image-search-app
+
+3.cd image-search-app
 Install the required dependencies:
 
-bash
-Copy code
-npm install
+
+4.npm install
 Create a .env file at the root of the project and add your Pexels API key:
 
-env
-Copy code
-REACT_APP_PEXELS_API_KEY=your-pexels-api-key-here
+
+5.REACT_APP_PEXELS_API_KEY=your-pexels-api-key-here
 Run the application locally:
 
-bash
-Copy code
-npm start
+
+6.npm start
 This will start the development server and open the app in your default browser.
 
 Usage
