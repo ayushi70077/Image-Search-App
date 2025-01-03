@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,400;1,100;1,200;1,300;1,400&display=swap");
+#header {
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  font-family: "Raleway", sans-serif;
+}
+
+.bar-area {
+  margin-top: 1rem;
+  margin-bottom: 3.3rem;
+  display: flex;
+  justify-content: center;
+}
+
+#image {
+  border: 1px solid black;
+}
+#content {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap;
+  gap: 2rem;
+  max-width: 95vw;
+  padding-bottom: 3rem;
+}
+#sb {
+  height: 2.57rem;
+  width: 4rem;
+  color: white;
+  font-size: 0.9rem;
+  border: 0.6px solid black;
+  border-left: none;
+}
+
+#message {
+  font-size: 2rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+}
+#mode {
+  width: 3.5rem;
+  height: 2rem;
+  border-radius: 0;
+  border: 1px solid black;
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+body {
+  margin: 0;
+  height: 100vh;
+}
+#king-cont {
+  min-height: 100vh;
+}
+#loader {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  align-items: center;
+  height: 50vh;
+}
+.inbar {
+  width: 40vw;
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  padding-left: 1rem;
+  height: 2.3rem;
+  border: 1px solid black;
+}
+.inbar:focus {
+  outline: none;
+}
+
+@media all and (max-width: 360px) {
+  .inbar {
+    width: 14rem;
+  }
+  #header {
+    margin-top: 4rem;
+    font-size: 2rem;
+  }
+  #message {
+    font-size: 1.5rem;
+  }
+}
+@media all and (max-width: 740px) and (min-width: 370px) {
+  .inbar {
+    width: 60vw;
+  }
+}
